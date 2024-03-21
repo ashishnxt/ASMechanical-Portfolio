@@ -1,0 +1,29 @@
+.boxxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    height: 1600px;
+    /* overflow-y: scroll; */
+  }
+
+  @media (max-width: 768px) {
+    .boxxes {
+      grid-template-columns: repeat(1, 1fr);
+      height: auto;
+      /* overflow-y: visible; */
+    }
+  }
+
+  .boxxes img {
+    width: 400px;
+    height: 500px;
+    padding: 0px 0px 0px 60px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+  }

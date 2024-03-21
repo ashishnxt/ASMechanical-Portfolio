@@ -1,0 +1,32 @@
+
+.boxes{
+    max-width: 85%;
+    margin:20px auto;
+    
+  }
+  /* .boxes .photo-boxes img:hover {
+    transform: scale(1.1);
+  }
+   */
+  .boxes .title{
+    font-size: 25px;
+    background-color: #000;
+    color:#fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding:15px;
+  }
+  
+  .boxes .photo-boxes{
+    columns:3 250px;
+    gap:15px;
+  }
+  
+  .boxes .photo-boxes img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+  }  

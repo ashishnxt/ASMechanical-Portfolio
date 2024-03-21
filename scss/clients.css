@@ -1,0 +1,52 @@
+.conta {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .conta {
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   text-align-last: center;
+   color: rgb(64, 132, 234);
+   
+  }
+
+  .flex-conta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fla {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+width: 220px;
+padding: 10px;
+border-radius: 20px;
+transition: transform 0.3s ease;
+}
+
+  .fla:hover {
+    transform: scale(1.1);
+  }
+
+  @media only screen and (max-width: 600px) {
+    .fla {
+      height: 140px;
+      width: 140px;
+      padding: 8px;
+      border-radius: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .fla {
+      height: 140px;
+      width: 140px;
+      padding: 8px;
+      border-radius: 15px;
+    }
+  }
